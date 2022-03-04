@@ -7,7 +7,7 @@ import { HelloComponent } from './hello.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { NumbersComponent } from './numbers/numbers.component';
+import { NumbersComponent } from './tabuada/tabuada.component';
 
 @NgModule({
   imports: [
@@ -16,7 +16,7 @@ import { NumbersComponent } from './numbers/numbers.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'about', component: AboutComponent },
-      { path: 'numbers', component: NumbersComponent },
+      { path: 'tabuada', component: TabuadaComponent },
     ]),
   ],
   declarations: [
@@ -24,7 +24,7 @@ import { NumbersComponent } from './numbers/numbers.component';
     HelloComponent,
     HomeComponent,
     AboutComponent,
-    NumbersComponent,
+    TabuadaComponent,
   ],
   bootstrap: [AppComponent],
 })
