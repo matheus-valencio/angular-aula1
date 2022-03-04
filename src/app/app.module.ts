@@ -19,7 +19,13 @@ import { NumbersComponent } from './numbers/numbers.component';
       { path: 'numbers', component: NumbersComponent },
     ]),
   ],
-  declarations: [AppComponent, HelloComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    HomeComponent,
+    AboutComponent,
+    NumbersComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
