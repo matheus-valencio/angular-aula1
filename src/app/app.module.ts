@@ -7,7 +7,7 @@ import { HelloComponent } from './hello.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
-import { NumbersComponent } from './tabuada/tabuada.component';
+import { TabuadaComponent } from './tabuada/tabuada.component';
 
 @NgModule({
   imports: [
@@ -19,13 +19,7 @@ import { NumbersComponent } from './tabuada/tabuada.component';
       { path: 'tabuada', component: TabuadaComponent },
     ]),
   ],
-  declarations: [
-    AppComponent,
-    HelloComponent,
-    HomeComponent,
-    AboutComponent,
-    TabuadaComponent,
-  ],
+  declarations: [AppComponent, HelloComponent, TabuadaComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
