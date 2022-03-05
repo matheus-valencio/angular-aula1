@@ -1,4 +1,9 @@
-<a [routerLink]="['/']">HOME</a> | <a [routerLink]="['/about']">ABOUT</a>|
-<a [routerLink]="['/tabuada']">TABUADA</a>
-<hr />
+<nav>
+  <ul>
+    <li><a [routerLink]="['/']">HOME </a></li>
+    <li><a [routerLink]="['/about']">SOBRE </a></li>
+    <li><a [routerLink]="['/tabuada']">TABUADA</a></li>
+  </ul>
+</nav>
+
 <router-outlet></router-outlet>
